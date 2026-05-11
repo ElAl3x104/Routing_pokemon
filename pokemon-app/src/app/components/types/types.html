@@ -1,0 +1,10 @@
+<h2>Lista Tipi Pokemon</h2>
+
+@for(type of pokemonTypes; track type)
+{
+  <div>
+    <button [routerLink]="['/pokemon-list', type]">
+      {{type}}
+    </button>
+  </div>
+}

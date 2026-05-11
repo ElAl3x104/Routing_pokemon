@@ -1,0 +1,10 @@
+@if(data)
+{
+  <h2>{{data.name}}</h2>
+
+  <p>Altezza: {{data.height}}</p>
+
+  <p>Peso: {{data.weight}}</p>
+
+  <img [src]="data.sprites.front_default">
+}
