@@ -5,12 +5,13 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
 import { PokemonService } from '../../services/pokemon';
 
 import { Observable } from 'rxjs';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-pokemon-detail',
-  imports: [],
-  templateUrl: './pokemon-detail.component.html',
-  styleUrl: './pokemon-detail.component.css'
+  imports: [CommonModule],
+  templateUrl: './pokemon-detail.html',
+  styleUrl: './pokemon-detail.css'
 })
 export class PokemonDetail {
 

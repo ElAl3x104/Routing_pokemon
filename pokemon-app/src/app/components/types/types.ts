@@ -4,8 +4,8 @@ import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-types',
   imports: [RouterModule],
-  templateUrl: './types.component.html',
-  styleUrl: './types.component.css'
+  templateUrl: './types.html',
+  styleUrl: './types.css'
 })
 export class Types {
 
